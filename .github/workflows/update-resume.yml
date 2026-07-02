@@ -34,8 +34,8 @@ jobs:
 
       - name: Commit & push if changed
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "Om Sharma"
+          git config user.email "omsharma8834@gmail.com"
           git add cf_data.tex resume.pdf
           if git diff --cached --quiet; then
             echo "No changes to commit."
